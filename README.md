@@ -9,7 +9,9 @@ Prediction Terminal is an all-in-one interface giving users access to aggregatio
 - See relevant articles from the news and related markets impacted
 - Backtest orders to view possible profits or losses trading on the market
 - Implement and test strategies using the paper trading feature on any market
-- Resize, move, and close different views based on the information needed
+- Resize, move, expand, and close different views based on the information needed
+- View P&L charts to aggregate and combine data across different exchanges
+- View all open trades across all providers in a single view
 - Use simple mode for a clean, full view of relevant information
 - View arbitrage oppertunities and duplicate markets across different exchanges
 - Account system and settings with persistant storage for storing API keys in a secure manner
