@@ -62,7 +62,7 @@ export default function BacktestPanel({ simple = false }: { simple?: boolean }) 
   const [entryDaysAgo, setEntryDaysAgo] = useState(30);
   const [result, setResult] = useState<BacktestResult | null>(null);
 
-  const selectedMarket = markets.find((m) => m.id === selectedMarketId);
+  const selectedMarket = markets.find((m: Market) => m.id === selectedMarketId);
 
   const priceHistory = useMemo(() => {
     if (!selectedMarket) return [];
@@ -252,7 +252,7 @@ export default function BacktestPanel({ simple = false }: { simple?: boolean }) 
                 <div className="text-[10px] text-terminal-muted">
                   <button
                     onClick={() => {
-                      const m = markets.find((m) => m.id === result.marketId);
+                      const m = markets.find((m: Market) => m.id === result.marketId);
                       if (m) setTradeModal(true, m);
                     }}
                     className="hover:text-terminal-cyan transition-colors"

@@ -1,6 +1,6 @@
 "use client";
 
-import { create } from "zustand";
+import { create, StoreApi, UseBoundStore } from "zustand";
 import {
   Market,
   Balance,
@@ -66,7 +66,7 @@ interface AppState {
   addPaperCash: (exchange: Exchange, amount: number) => void;
 }
 
-export const useStore = create<AppState>((set) => ({
+export const useStore: UseBoundStore<StoreApi<AppState>> = create<AppState>((set) => ({
   // Data
   markets: [],
   matchedGroups: [],
