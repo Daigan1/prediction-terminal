@@ -41,7 +41,7 @@ The project uses the following endpoints:
 
 # Technicial Execution + Preventing User Slips
 
-The Code follows proper style using types, concurrent processing for each of the markets, proper error handling, and informative errors for the user if any were to occur. There is also  prompts and warnings for live trading to ensure no funds are lost or misclicks occur.
+The code follows proper style using types, concurrent processing for each of the markets, proper error handling, and informative errors for the user if any were to occur. There is also  prompts and warnings for live trading to ensure no funds are lost or misclicks occur.
 
 
 # Known Limitations
