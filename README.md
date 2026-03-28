@@ -12,6 +12,7 @@ Prediction Terminal is an all-in-one interface giving users access to aggregatio
 - Resize, move, and close different views based on the information needed
 - Use simple mode for a clean, full view of relevant information
 - View arbitrage oppertunities and duplicate markets across different exchanges
+- Settings witih persistant storage storing API keys in a secure manner
 
 
 # Gemini API Endpoints: 
